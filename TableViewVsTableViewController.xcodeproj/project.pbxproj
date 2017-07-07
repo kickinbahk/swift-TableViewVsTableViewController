@@ -12,6 +12,8 @@
 		EB1ABA081F0F292C00726B49 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB1ABA061F0F292C00726B49 /* Main.storyboard */; };
 		EB1ABA0A1F0F292C00726B49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB1ABA091F0F292C00726B49 /* Assets.xcassets */; };
 		EB1ABA0D1F0F292C00726B49 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB1ABA0B1F0F292C00726B49 /* LaunchScreen.storyboard */; };
+		EB1ABA151F0F2D9900726B49 /* MyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB1ABA141F0F2D9900726B49 /* MyTableViewController.swift */; };
+		EB1ABA171F0F2DCD00726B49 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB1ABA161F0F2DCD00726B49 /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		EB1ABA091F0F292C00726B49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EB1ABA0C1F0F292C00726B49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EB1ABA0E1F0F292C00726B49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB1ABA141F0F2D9900726B49 /* MyTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTableViewController.swift; sourceTree = "<group>"; };
+		EB1ABA161F0F2DCD00726B49 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				EB1ABA091F0F292C00726B49 /* Assets.xcassets */,
 				EB1ABA0B1F0F292C00726B49 /* LaunchScreen.storyboard */,
 				EB1ABA0E1F0F292C00726B49 /* Info.plist */,
+				EB1ABA141F0F2D9900726B49 /* MyTableViewController.swift */,
+				EB1ABA161F0F2DCD00726B49 /* TableViewController.swift */,
 			);
 			path = TableViewVsTableViewController;
 			sourceTree = "<group>";
@@ -138,7 +144,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				EB1ABA051F0F292C00726B49 /* ViewController.swift in Sources */,
+				EB1ABA151F0F2D9900726B49 /* MyTableViewController.swift in Sources */,
 				EB1ABA031F0F292C00726B49 /* AppDelegate.swift in Sources */,
+				EB1ABA171F0F2DCD00726B49 /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
